@@ -1,23 +1,45 @@
 
 ## Splice App
 
-* Splice Chat App  is a Full Stack Chatting App
+# Splice – Smart Messaging with Image Recognition
 
-* In this chatting web app you can easily block annoying good morning messages from your relatives and friends.
-* Good Morning Images also can be blocked.  For this used Optical Character Recognition (OCR) 
-* Also you can block abusive content.
-* It uses Socket.io for real-time communication and stores user details in encrypted format in Mongo DB Database
+**Splice** is a futuristic messaging application designed to make conversations smarter, more organized, and clutter-free through advanced image recognition technology.
 
+Unlike traditional messaging apps, Splice allows users to **search images using text embedded within them, identify potentially fake images, and automatically filter unwanted content** based on personalized preferences.
 
-## Tech Stack
+## Key Features
 
-**Client:** React Js
+### 1. Advanced Image Recognition & Search
+- Search for images using keywords or text present within the images.
+- Easily locate shared images without manually scrolling through conversations.
+- Identify potentially manipulated or misleading images.
 
-**Server:** Node, Express
+### 2. Smart Content Filtering (Block List)
+- Users can create a personalized **Block List** containing keywords such as "Good Morning," "Birthday," or "Happy New Year."
+- Splice analyzes incoming images and automatically hides those containing blocked keywords.
+- Notifications associated with filtered images are also suppressed, reducing unnecessary interruptions.
 
-**Database:** MongoDB
+**Example:** If a user adds "New Year" to their Block List, incoming images containing the text "New Year" will automatically be hidden, and their notifications will be suppressed.
 
+### 3. Intelligent Spam Prevention
+- Automatically filter repetitive greeting images and other unwanted visual content.
+- Reduce unnecessary notifications and keep conversations focused on relevant messages.
 
+## Benefits
+
+**Optimized Storage:** Prevents unwanted images, such as repetitive greeting cards and forwarded messages, from cluttering device storage.
+
+**Time Efficiency:** Eliminates the need to manually review and delete irrelevant images.
+
+**Personalized Messaging:** Gives users greater control over the content they receive and view.
+
+**Reduced Notification Clutter:** Suppresses notifications for blocked images, creating a less distracting messaging experience.
+
+**Faster Image Discovery:** Makes finding shared images easier through text-based image search.
+
+## Project Vision
+
+Splice aims to go beyond conventional messaging by combining intelligent image recognition, personalized content filtering, and spam prevention to deliver a cleaner, smarter, and more efficient communication experience.
 
 
 ## Run Locally
