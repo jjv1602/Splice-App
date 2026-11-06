@@ -41,6 +41,10 @@ Unlike traditional messaging apps, Splice allows users to **search images using 
 
 Splice aims to go beyond conventional messaging by combining intelligent image recognition, personalized content filtering, and spam prevention to deliver a cleaner, smarter, and more efficient communication experience.
 
+## Tech Stack
+**Client:** React Js <br/>
+**Server:** Node, Express  <br/>
+**Database:** MongoDB
 
 ## Run Locally
 
